@@ -1,0 +1,13 @@
+
+<!--Nest a foreach loop in a list elment to populate the list with elments from an array object. --!>
+
+<h5>Artists:</h5>
+    <div>
+        <ul>
+			<!-- for every element in "ViewBag.Artists", that element value is stored in a a variable called "artist"--!>
+            @foreach (var artist in ViewBag.Artists)
+            {
+                <li>@artist</li>
+            }
+        </ul>
+    </div>

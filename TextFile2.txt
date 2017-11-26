@@ -1,9 +1,0 @@
-<h5>Artists:</h5>
-    <div>
-        <ul>
-            @foreach (var artist in ViewBag.Artists)
-            {
-                <li>@artist</li>
-            }
-        </ul>
-    </div>
